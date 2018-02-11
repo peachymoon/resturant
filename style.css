@@ -1,0 +1,165 @@
+body {margin:0;}
+
+/* Styling of fixed navbar */
+
+.navbar {
+  overflow: hidden;
+  color: rgba(255, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.image {
+  background: url(https://cdn-images-1.medium.com/max/2000/1*8f5qzvCLiyAp4RVp1OMe-g.jpeg)
+  no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Satisfy', cursive;
+}
+
+/* Each section */
+.box{
+   padding: 3%;
+   width: 94%;
+  height: 70px;
+}
+
+.box2{
+   padding: 3%;
+   width: 94%;
+  height: 70px;
+    text-align: center;
+}
+
+.box3{
+   padding: 3%;
+   width: 94%;
+  height: 70px;
+  text-align: center;
+}
+
+/* The Menu icon on the first section */
+.menu{
+  background:url("https://static1.squarespace.com/static/529640d3e4b03b0c04b2277b/t/52993ca2e4b0a5b6da067155/1434721861242/a+tavola+logo+menu.png")
+  no-repeat center center;
+   height: 40px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+
+img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+h1 {
+   font-size: 5em;
+  text-shadow: 4px 2px #000000;
+}
+
+h3{
+   font-family: 'Satisfy', cursive;
+}
+
+
+/* Columns that float next to each other */
+.column {
+    float: left;
+    width: 22%;
+    padding-top: 30px;
+    padding-right:17px;
+    padding-bottom: 30px;
+    padding-left:23px;
+}
+
+.column2 {
+    float: left;
+    width: 22%;
+    padding-top: 30px;
+    padding-right:38px;
+    padding-bottom: 30px;
+    padding-left:0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h2{
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+}
+
+h4{
+  text-align:center;
+}
+
+p{
+  text-align:center;
+}
+
+/* Styling of the Food menu button */
+.buttonHolder {
+  margin auto;
+}
+
+button{
+  padding:16px 32px;
+  font-size:15px;
+  color:#000000;
+  background: #FFFFFF;
+  border:1px solid black;
+  text-align: center;
+}
+button:hover{
+  background :#ddd;
+}
+
+.btn:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn button:not(:last-child) {
+    border-right: none;
+}
+
+.btn button:hover {
+    background-color: #ddd;
+}
+
+/* Styling of the containers created for the contact info */
+.container{
+   float: left;
+   padding: 3%;
+   width: 25%;
+}
